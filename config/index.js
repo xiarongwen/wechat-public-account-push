@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "8c2bc36ef89891492c6d93c73d763bd1",
 
     // 模板消息id
-    TEMPLATE_ID: "v1dmF8yJriyZ9udsELgTh1jOyhVv7JOWs1Hrla9HYaE",
+    TEMPLATE_ID: "UHBLl_U8yRVXHPE6vJdFS2c5UkqbVZfL0tO0DvPcJ",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "xxxxxxxxxxxxx-y你懂的,填错狗头打烂VRMpu",
@@ -26,6 +26,7 @@ export const config = {
     // }]
     USERS: [
       {name: '鼻炎', id: "odISR6utpw6ubFPEKXnNevzGyyuc"}, 
+      {name: '忙忙', id: "odISR6mZsPiCF3EDqbs5EqNcN7Nk"}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
@@ -50,20 +51,19 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "生日", "name": "baby Tong", "year": "1999", "date": "10-13"},
-      {"type": "节日", "name": "和童童的已经黏了", "year": "2021", "date": "11-19"},
+      {"type": "生日", "name": "童女士诞辰", "year": "1999", "date": "10-13"},
+      {"type": "节日", "name": "和童童的已经黏了", "year": "2022", "date": "11-19"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
     // 如果为0, 则默认展示全部
-    FESTIVALS_LIMIT: 3,
+    FESTIVALS_LIMIT: 0,
 
     /** 日期相关 */
 
     // 在一起的日子，格式同上
-    LOVE_DATE: "2015-05-01",
+    LOVE_DATE: "2021-11-19",
     // 结婚纪念日
-    MARRY_DATE: "2020-01-04",
 
 
     /** 每日一言 */
@@ -71,7 +71,6 @@ export const config = {
     // 好文节选的内容类型
     // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
     LITERARY_PREFERENCE: ""
-
 
     }
 
@@ -81,7 +80,6 @@ export const config = {
 // 最低气温: {{min_temperature.DATA}}  
 // 最高气温: {{max_temperature.DATA}}  
 // 今天是我们恋爱的第{{love_day.DATA}}天
-// 今天是我们结婚的第{{marry_day.DATA}}天
 // {{birthday_message.DATA}}
 
 // {{note_en.DATA}}  
